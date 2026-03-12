@@ -1,0 +1,16 @@
+{
+  "run_id": "20260311_113828",
+  "model": "MFCC+SVM",
+  "feature_dim": 240,
+  "test_auc": 0.9565,
+  "test_eer_pct": 9.79,
+  "best_threshold": 0.6241,
+  "precision_bonafide": 0.5455,
+  "recall_bonafide": 0.8711,
+  "f1_bonafide": 0.6709,
+  "precision_spoof": 0.9841,
+  "recall_spoof": 0.9164,
+  "f1_spoof": 0.949,
+  "svm_train_time_sec": 59.9,
+  "total_time_min": 18.87
+}

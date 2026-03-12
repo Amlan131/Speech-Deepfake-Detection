@@ -1,0 +1,9 @@
+{
+  "run_id": "20260311_113828",
+  "model": "MFCC+SVM",
+  "n_mfcc": 40,
+  "duration_sec": 4.0,
+  "svm_kernel": "rbf",
+  "svm_C": 1.0,
+  "data_root": "/root/amlan/demons/snlp/data/LA"
+}

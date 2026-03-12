@@ -1,0 +1,21 @@
+d2026-03-11 11:38:28,519 | INFO | Run ID     : 20260311_113828
+2026-03-11 11:38:28,519 | INFO | Output dir : outputs/baseline_20260311_113828
+2026-03-11 11:38:28,648 | INFO | Train samples: 25380 | Eval samples: 71237
+2026-03-11 11:55:18,693 | INFO | Feature shape — Train: (25380, 240) | Eval: (71237, 240)
+2026-03-11 11:55:18,869 | INFO | Training SVM (this may take 5–10 min on full data)...
+2026-03-11 11:56:18,794 | INFO | SVM trained in 59.9s
+2026-03-11 11:57:20,364 | INFO | 
+🏆 BASELINE RESULT | AUC: 0.9565 | EER: 9.79%
+2026-03-11 11:57:20,377 | INFO | 
+              precision    recall  f1-score   support
+
+       Spoof       0.98      0.92      0.95     63882
+    Bonafide       0.55      0.87      0.67      7355
+
+    accuracy                           0.91     71237
+   macro avg       0.76      0.89      0.81     71237
+weighted avg       0.94      0.91      0.92     71237
+
+2026-03-11 11:57:20,775 | INFO | Saved: roc_curve.png
+2026-03-11 11:57:20,892 | INFO | Saved: confusion_matrix.png
+2026-03-11 11:57:21,075 | INFO | Saved: score_distribution.png
