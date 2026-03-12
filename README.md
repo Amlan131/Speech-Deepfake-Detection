@@ -70,7 +70,7 @@ Binary Output: REAL (Bonafide) / FAKE (Spoof)
 ├── plot_ablation.py                # Ablation results plot generator
 ├── requirements.txt
 ├── outputs/
-│   ├── run_20260311_112721/        # wav2vec2 main results
+│   ├── run/        # wav2vec2 main results
 │   │   ├── config.json
 │   │   ├── final_metrics.json
 │   │   ├── classification_report.csv
@@ -86,7 +86,7 @@ Binary Output: REAL (Bonafide) / FAKE (Spoof)
 │   │       ├── score_distribution.png
 │   │       ├── per_attack_eer.png
 │   │       └── tsne_embeddings.png
-│   ├── baseline_20260311_113828/   # MFCC+SVM baseline results
+│   ├── baseline/   # MFCC+SVM baseline results
 │   │   ├── final_metrics.json
 │   │   ├── classification_report.csv
 │   │   └── plots/
@@ -94,7 +94,7 @@ Binary Output: REAL (Bonafide) / FAKE (Spoof)
 │   │       ├── confusion_matrix.png
 │   │       ├── score_distribution.png
 │   │       └── per_attack_eer.png
-│   └── ablation_20260311_121003/   # Ablation study results
+│   └── ablation/   # Ablation study results
 │       ├── ablation_summary.csv
 │       ├── ablation_summary.json
 │       └── plots/
