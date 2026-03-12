@@ -1,0 +1,4 @@
+config,desc,freeze_layers,trainable_params,best_dev_eer,test_eer,test_auc
+linear_probe,Freeze All (12/12),12,9530625,0.77,5.6,0.9828
+freeze_bottom9,Freeze Bottom 9 (ours),9,30794241,0.44,2.97,0.9836
+full_finetune,Full Fine-tune (collapsed),0,94585089,,,0.5
