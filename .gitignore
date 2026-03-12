@@ -1,0 +1,31 @@
+# Dataset — too large for GitHub (7.6GB)
+data/
+*.flac
+*.wav
+
+# Model checkpoints — too large
+outputs/*/checkpoints/
+outputs/*/best_model.pt
+outputs/*/best_*.pt
+*.pt
+*.bin
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+
+# Logs (optional — keep if you want)
+outputs/*/logs/*.npy
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# System
+.DS_Store
+*.swp
