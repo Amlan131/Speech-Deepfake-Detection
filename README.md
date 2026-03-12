@@ -246,34 +246,34 @@ with findings in the ICASSP 2026 benchmark paper (arXiv:2603.01482).
 ## Plots
 
 ### Training Curves
-![Training Curves](./run/plots/training_curves.png)
+![Training Curves](outputs/runs/plots/training_curves.png)
 
 ### ROC Curve
-![ROC Curve](./run/plots/roc_curve.png)
+![ROC Curve](outputs/runs/plots/roc_curve.png)
 
 ### Confusion Matrix — wav2vec2
-![Confusion Matrix](./run/plots/confusion_matrix.png)
+![Confusion Matrix](outputs/runs/plots/confusion_matrix.png)
 
 ### Confusion Matrix — MFCC+SVM Baseline
-![Baseline Confusion Matrix](./baseline/plots/confusion_matrix.png)
+![Baseline Confusion Matrix](outputs/baseline/plots/confusion_matrix.png)
 
 ### Per-Attack EER — wav2vec2
-![Per-Attack EER](./run/plots/per_attack_eer.png)
+![Per-Attack EER](outputs/runs/plots/per_attack_eer.png)
 
 ### Per-Attack EER — Baseline
-![Baseline Per-Attack EER](./plots/per_attack_eer.png)
+![Baseline Per-Attack EER](outputs/baseline/plots/per_attack_eer.png)
 
 ### t-SNE Embedding Visualization
-![t-SNE](./run/plots/tsne_embeddings.png)
+![t-SNE](outputs/runs/plots/tsne_embeddings.png)
 
 ### Full Model Comparison
-![Full Comparison](./ablation/plots/full_comparison.png)
+![Full Comparison](outputs/ablation/plots/full_comparison.png)
 
 ### Ablation EER Curve
-![Ablation EER](./ablation/plots/ablation_eer_curve.png)
+![Ablation EER](outputs/ablation/plots/ablation_eer_curve.png)
 
 ### Ablation Loss Curve
-![Ablation Loss](./ablation/plots/ablation_loss_curve.png)
+![Ablation Loss](outputs/ablation/plots/ablation_loss_curve.png)
 
 ---
 
