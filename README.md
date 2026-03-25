@@ -47,8 +47,7 @@ benchmark — the standard public dataset for this task — using **Equal Error 
 and **AUC** as evaluation metrics.
 
 > Submitted as part of the **Speech and Natural Language Processing** course project.
-> This work is independently validated by and aligned with findings in the **ICASSP 2026**
-> benchmark paper on self-supervised speech models for deepfake detection (arXiv:2603.01482).
+
 
 ---
 
