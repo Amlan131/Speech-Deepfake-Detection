@@ -379,27 +379,26 @@ Verdict : REAL (Bonafide)
 ---
 
 ## Plots
-
 ### Training Curves
-![Training Curves](outputs/run/plots/training_curves.png)
+![Training Curves](outputs/runs/plots/training_curves.png)
 
 ### ROC Curve
-![ROC Curve](outputs/run/plots/roc_curve.png)
+![ROC Curve](outputs/runs/plots/roc_curve.png)
 
 ### Confusion Matrix — wav2vec2
-![Confusion Matrix](outputs/run/plots/confusion_matrix.png)
+![Confusion Matrix](outputs/runs/plots/confusion_matrix.png)
 
 ### Confusion Matrix — MFCC+SVM Baseline
 ![Baseline Confusion Matrix](outputs/baseline/plots/confusion_matrix.png)
 
 ### Per-Attack EER — wav2vec2
-![Per-Attack EER](outputs/run/plots/per_attack_eer.png)
+![Per-Attack EER](outputs/runs/plots/per_attack_eer.png)
 
 ### Per-Attack EER — Baseline
 ![Baseline Per-Attack EER](outputs/baseline/plots/per_attack_eer.png)
 
 ### t-SNE Embedding Visualization
-![t-SNE](outputs/run/plots/tsne_embeddings.png)
+![t-SNE](outputs/runs/plots/tsne_embeddings.png)
 
 ### Full Model Comparison
 ![Full Comparison](outputs/ablation/plots/full_comparison.png)
